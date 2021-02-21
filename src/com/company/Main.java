@@ -29,7 +29,7 @@ public class Main {
                     Arabic r = new Arabic(num);
                     System.out.println(r.get_rezult());
                 } else {
-                    throw new Exception("значения не являются ни арабскими числами , ни римскими или значения вне допустимого диапазона значений");
+                    throw new Exception("значения не являются одновременно ни арабскими числами , ни римскими или значения вне допустимого диапазона значений");
                 }
 
             } catch (Exception e) {
