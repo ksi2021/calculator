@@ -25,6 +25,7 @@ public class Main {
                 if (base.Is_Roman()) {
                     Roman r = new Roman(num);
                     System.out.println(r.get_rezult());
+		    System.out.println(r.get_rez());
                 } else if (base.Is_Arabic()) {
                     Arabic r = new Arabic(num);
                     System.out.println(r.get_rezult());
